@@ -1,0 +1,55 @@
+h1{
+    background-color: rgb(218, 127, 111);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #ffffff;
+    width: min(90%, 500px);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 3em 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 1em;
+  }
+  input {
+    border: 1px solid black;
+    padding: 0.5em;
+    border-radius: 0.2em;
+  }
+  .background {
+    background: url(sunflowers-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    filter: blur(30px);
+  }
+
+
+#password-text{
+    background-color: rgb(0, 255, 34);
+    padding: 4px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+
+#password{
+
+    border-color: rgb(10, 218, 48);
+    
+
+}
